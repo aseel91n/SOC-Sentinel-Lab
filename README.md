@@ -223,19 +223,29 @@ SOC-Sentinel-Lab/
 
 ---
 
-## Screenshots
+## Project Evidence
 
-Add project screenshots here after uploading them to the `Screenshots` folder.
+### Lab Architecture
+![VirtualBox Network Configuration](Screenshots/01-virtualbox-network-config.png)
 
-Suggested evidence:
+### Wazuh Agent Validation
+![Wazuh Agent Active](Screenshots/05-wazuh-agent-active.png)
 
-- VirtualBox lab architecture
-- Active Wazuh Windows agent
-- Failed logon alert
-- FIM alert
-- Port scan alert
-- PowerShell alert
-- Wazuh Threat Hunting investigation view
+### Failed Logon Detection
+![Failed Logon Alert](Screenshots/06-failed-logon-alert.png)
+
+### Port Scan Detection
+![Port Scan Detection](Screenshots/09-port-scan-detection.png)
+
+### Suspicious PowerShell Detection
+![PowerShell Detection](Screenshots/10-powershell-detection.png)
+
+---
+
+## Full Technical Report
+
+📄 [View the complete SOC Lab Final Report](Documentation/SOC-Lab-Final-Report.pdf)
+
 
 ---
 
